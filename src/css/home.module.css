@@ -1007,7 +1007,7 @@
     .projectImage1>h3 {
         left: 10px;
         bottom: 10px;
-        font-size: var(--fs-s);
+        font-size: var(--fs-xs);
     }
 }
 
