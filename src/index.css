@@ -1,0 +1,46 @@
+.html{
+  font-size: 16px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family:'Titillium Web',sans-serif;
+}
+:root{
+
+  /* colors */
+  --white:#ffffff;
+  --lightBlack:#454545;
+  --orange:#F18917;
+  --black:#13171D;
+  --skin:#FFDDB8;
+  --darkBlack:#000013;
+  --light-grey:#f3f3f3;
+  --grey:gray;
+  --midGrey:#d2d2d2;
+
+  /* font size */
+  --fs-xxs:0.6em;
+  --fs-xs:0.75em;
+  --fs-s:0.875em;
+  --fs-base:1em;
+  --fs-md:1.125em;
+  --fs-lg:1.5em;
+  --fs-xl:2em;
+  --fs-2xl:3em;
+  --fs-3xl:4em;
+
+  /* font weight */
+  --fw-thin: 100;
+  --fw-extra-light: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+  --fw-black: 900;
+}
