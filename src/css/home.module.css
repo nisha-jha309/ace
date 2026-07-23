@@ -581,11 +581,11 @@
         font-size: var(--fs-xs);
     }
 .vikisitImageBox{
-    height: 200px;
+    height: 150px;
 }
     .viksitImages {
-        grid-template-columns: 1fr;
-        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        /* width: 100%; */
         gap:6px;
     }
 .vikisitImagetext h3 {
