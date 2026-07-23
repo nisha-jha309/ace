@@ -1,16 +1,39 @@
-# React + Vite
+A modern, responsive, and visually engaging homepage built for **ACE** using **React**. The project focuses on delivering a premium user experience with smooth interactions, modular architecture, and clean, maintainable code.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+The ACE Homepage serves as the primary landing page for the website, showcasing the company's products, industries, projects, brands, and corporate information through an intuitive and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application is designed with performance, scalability, and accessibility in mind while maintaining a clean and professional UI.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Modern and responsive design
+- Fully component-based architecture
+- Mobile-first development
+- Interactive navigation
+- Hero section with call-to-action
+- About section
+- Product showcase
+- Industry solutions section
+- Featured projects
+- Brand showcase
+- Insights & latest updates
+- Contact information
+- Reusable UI components
+- CSS Modules for scoped styling
+- Optimized asset management
+- Smooth hover effects and transitions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router
+- JavaScript (ES6+)
+- HTML5
+- CSS Modules
+- Vite
