@@ -9,20 +9,20 @@ import { useState } from "react";
 export default function Navbar() {
     const [isSearch, setIsSearch] = useState(false);
     const [openMenu, setOpenMenu] = useState(false);
-    const [searchQuery,setSearchQuery] =useState("");
+    const [searchQuery, setSearchQuery] = useState("");
 
     const handleSearchChange = (e) => {
-    const value = e.target.value;
+        const value = e.target.value;
 
-    setSearchQuery(value);
+        setSearchQuery(value);
 
-    if (value === "") {
-        // User ne built-in clear button click kiya
-        // ya manually saara text delete kiya
-        console.log("Search cleared");
-        setIsSearch(false);
-    }
-};
+        if (value === "") {
+            // User ne built-in clear button click kiya
+            // ya manually saara text delete kiya
+            console.log("Search cleared");
+            setIsSearch(false);
+        }
+    };
     return (
         <>
             <nav className={styles.nav}>
@@ -30,13 +30,13 @@ export default function Navbar() {
                     <div className={styles.leftNav}>
                         <img src={logo} alt="" className={styles.logo} />
                         <div className={styles.navlinks}>
-                        <NavLink to="/" className={({ isActive }) => isActive ? styles.activeLink : ""}>Products</NavLink> 
-                       <NavLink to="/industries" className={({ isActive }) => isActive ? styles.activeLink : ""}>industries</NavLink>
-                      <NavLink to="/projects" className={({ isActive }) => isActive ? styles.activeLink : ""}>Projects</NavLink>
-                        <NavLink to="/innovation" className={({ isActive }) => isActive ? styles.activeLink : ""}>INNOVATION</NavLink> 
-                        <NavLink to="/about" className={({ isActive }) => isActive ? styles.activeLink : ""}>about Ace</NavLink>
-                        <NavLink to="/investors" className={({ isActive }) => isActive ? styles.activeLink : ""}>investors</NavLink>
-                        <NavLink to="/contact" className={({ isActive }) => isActive ? styles.activeLink : ""}>contact</NavLink> 
+                            <NavLink to="/" className={({ isActive }) => isActive ? styles.activeLink : ""}>Products</NavLink>
+                            <NavLink to="/industries" className={({ isActive }) => isActive ? styles.activeLink : ""}>industries</NavLink>
+                            <NavLink to="/projects" className={({ isActive }) => isActive ? styles.activeLink : ""}>Projects</NavLink>
+                            <NavLink to="/innovation" className={({ isActive }) => isActive ? styles.activeLink : ""}>INNOVATION</NavLink>
+                            <NavLink to="/about" className={({ isActive }) => isActive ? styles.activeLink : ""}>about Ace</NavLink>
+                            <NavLink to="/investors" className={({ isActive }) => isActive ? styles.activeLink : ""}>investors</NavLink>
+                            <NavLink to="/contact" className={({ isActive }) => isActive ? styles.activeLink : ""}>contact</NavLink>
                         </div>
                     </div>
                     <div className={styles.searchSection}>
@@ -47,7 +47,7 @@ export default function Navbar() {
                         }
                         {isSearch && <div className={styles.realSearch}>
                             <input type="search" name="" id="" className={styles.searchInput} placeholder="type to search..." value={searchQuery}
-    onChange={handleSearchChange} />
+                                onChange={handleSearchChange} />
                         </div>
 
                         }
@@ -66,7 +66,8 @@ export default function Navbar() {
                             </div>
                             }
                             {isSearch && <div className={styles.realSearch}>
-                                <input type="search" name="" id="" className={styles.searchInput} placeholder="type to search..." />
+                                <input type="search" name="" id="" className={styles.searchInput} placeholder="type to search..." value={searchQuery}
+                                    onChange={handleSearchChange} />
                             </div>
 
                             }

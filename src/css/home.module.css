@@ -144,6 +144,9 @@
 }
 
 @media (max-width:375px) {
+    .hero{
+        height: 400px;
+    }
     .heroText {
         width: 60%;
     }
@@ -578,7 +581,7 @@
         font-size: var(--fs-xs);
     }
 .vikisitImageBox{
-    height: 150px;
+    height: 200px;
 }
     .viksitImages {
         grid-template-columns: 1fr;
