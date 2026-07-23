@@ -581,7 +581,7 @@
         font-size: var(--fs-xs);
     }
 .vikisitImageBox{
-    height: 150px;
+    height:200px;
 }
     .viksitImages {
         grid-template-columns: 1fr 1fr;
@@ -1007,6 +1007,7 @@
     .projectImage1>h3 {
         left: 10px;
         bottom: 10px;
+        font-size: var(--fs-s);
     }
 }
 
@@ -1047,6 +1048,12 @@
 
     .projectImage1 {
         height: 150px;
+    }
+    .projectImageBox>h3,
+    .projectImage1>h3 {
+        left: 10px;
+        bottom: 10px;
+        font-size: var(--fs-xs);
     }
 }
 
